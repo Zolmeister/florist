@@ -1,6 +1,6 @@
 {
   "name": "florist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Prefix-free declarative method imports",
   "keywords": [
     "require",
@@ -21,5 +21,16 @@
     "lodash": "2.4.1",
     "mocha": "1.20.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Zolmeister/florist.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Zolmeister/florist/issues"
+  },
+  "homepage": "https://github.com/Zolmeister/florist"
 }
