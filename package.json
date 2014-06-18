@@ -1,10 +1,25 @@
 {
   "name": "florist",
-  "version": "0.0.0",
-  "description": "",
+  "version": "0.0.1",
+  "description": "Prefix-free declarative method imports",
+  "keywords": [
+    "require",
+    "import",
+    "metaz",
+    "declarative",
+    "lodash"
+  ],
   "main": "index.js",
   "author": "Zolmeister",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  }
+    "test": "NODE_PATH=../ node_modules/mocha/bin/mocha test/florist.js"
+  },
+  "dependencies": {
+    "metaz": "0.0.5"
+  },
+  "devDependencies": {
+    "lodash": "2.4.1",
+    "mocha": "1.20.1"
+  },
+  "license": "MIT"
 }
